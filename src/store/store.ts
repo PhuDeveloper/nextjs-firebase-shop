@@ -6,6 +6,7 @@ export const store = configureStore({
   reducer: {
     cart: cartReduce,
   },
+  
 });
 
 // Infer the `RootState` and `AppDispatch` types from the store itself

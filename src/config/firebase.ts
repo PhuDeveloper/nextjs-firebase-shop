@@ -25,6 +25,7 @@ const auth = getAuth(app);
 
 const userLogin = getDatabase(app);
 const provider = new GoogleAuthProvider();
+const db = getDatabase(app);
 export {
   app,
   auth,
@@ -33,4 +34,5 @@ export {
   signInWithEmailAndPassword,
   storage,
   userLogin,
+  db,
 };
